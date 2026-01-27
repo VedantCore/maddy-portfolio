@@ -41,7 +41,7 @@ export default function TextReveal({ text, className, delay = 0 }: TextRevealPro
         stiffness: 100,
       },
     },
-  };
+  } as const;
 
   return (
     <motion.div

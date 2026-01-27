@@ -25,7 +25,7 @@ const itemVariants = {
       ease: [0.25, 0.4, 0.25, 1],
     },
   },
-};
+} as const; // Add 'as const' to make it compatible with Framer Motion's strict Variant types
 
 export default function Hero() {
   const [isExpanded, setIsExpanded] = useState(false);
