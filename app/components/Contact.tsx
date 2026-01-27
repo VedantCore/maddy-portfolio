@@ -1,8 +1,18 @@
 "use client";
 import FadeIn from "./FadeIn";
 import { SiInstagram, SiX, SiLinkedin, SiMinutemailer } from "react-icons/si";
+import { IconType } from "react-icons";
 
-const socials = [
+interface Social {
+  name: string;
+  value: string;
+  icon: IconType;
+  link: string;
+  color: string;
+  bg: string;
+}
+
+const socials: Social[] = [
   {
     name: "Email",
     value: "max46878@gmail.com", // Replace with actual email
