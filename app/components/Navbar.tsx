@@ -19,7 +19,6 @@ export default function Navbar() {
   const links = [
     { name: "Work", target: "#work" },
     { name: "Experience", target: "#experience" },
-    { name: "Contact", target: "#contact" },
   ];
 
   return (
@@ -72,7 +71,7 @@ export default function Navbar() {
             document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
           }}
         >
-          Let's Talk
+          Let's Talk!
         </Link>
       </div>
     </motion.nav>
