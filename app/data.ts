@@ -16,7 +16,10 @@ export const projects = [
     colSpan: "md:col-span-2",
     description: "A collection of high-energy motion graphics work including kinetic typography, logo animations, and explainers.",
     media: [
-      { type: "youtube", url: "dQw4w9WgXcQ" }, // Example: Rick Roll (Replace with real ID)
+      { type: "instagram", url: "DNYDHhxRWSD" },
+      { type: "instagram", url: "DLIIjigR-ko" },
+      { type: "instagram", url: "DKyqX6hTIy9" },
+      { type: "instagram", url: "C7omk07vLQp" }, // Example: Rick Roll (Replace with real ID)
       { type: "local", url: "/videos/motion1.mp4" },
       { type: "youtube", url: "M7fi_IBh06w" }, // Example: Sintel
     ] as MediaItem[]
@@ -30,7 +33,7 @@ export const projects = [
     colSpan: "md:col-span-1",
     description: "Capturing the magic of special moments. Cinematic wedding highlights tailored to tell the couple's unique love story.",
     media: [
-      { type: "instagram", url: "C3j8d9as2d" }, // Example Post ID
+      { type: "instagram", url: "" }, // Example Post ID
       { type: "local", url: "/videos/wedding1.mp4" },
     ] as MediaItem[]
   },
@@ -43,7 +46,12 @@ export const projects = [
     colSpan: "md:col-span-1",
     description: "Fast-paced, engaging edits for gaming creators. enhancing gameplay with memes, sound effects, and dynamic cuts.",
     media: [
-      { type: "youtube", url: "dQw4w9WgXcQ" }, // YouTube Short? use ID
+      { type: "instagram", url: "DRg99CHkRuR" },
+      { type: "instagram", url: "DLo7_IhxQoC" },
+      { type: "instagram", url: "C0JwDcbxH5Z" },
+      { type: "instagram", url: "Czf8h55xzEB" },
+      { type: "instagram", url: "CzPRDLGh0e6" },
+      { type: "instagram", url: "CxdUrA0x4Uf" }, // YouTube Short? use ID
       { type: "local", url: "/videos/gaming1.mp4" },
     ] as MediaItem[]
   },
@@ -56,8 +64,8 @@ export const projects = [
     colSpan: "md:col-span-2",
     description: "Before and after showcases of color grading work using DaVinci Resolve. Setting the mood and tone for every scene.",
     media: [
-      { type: "local", url: "/videos/grading1.mp4" },
-      { type: "local", url: "/videos/grading2.mp4" },
+      { type: "youtube", url: "dQw4w9WgXcQ" },
+      { type: "instagram", url: "DTQXNy5jHsg" },
     ] as MediaItem[]
   },
 ];
